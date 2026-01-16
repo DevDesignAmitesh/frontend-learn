@@ -16,7 +16,7 @@ export const Navbar = () => {
 
   return (
     <div className="navbar">
-      <h1 className="logo">Choco</h1>
+      <h1 className="logo">Finta</h1>
       <div className="nav-comp">
         {navItems.map((item) => (
           <a href="#" className="nav-items">

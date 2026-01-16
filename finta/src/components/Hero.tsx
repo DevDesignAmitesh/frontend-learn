@@ -11,7 +11,7 @@ export const Hero = () => {
             strokeOpacity=".5"
             strokeWidth="1.25"
             d="M8 4.75 11.25 8m0 0L8 11.25M11.25 8h-6.5"
-          ></path>
+          />
         </svg>
       </span>
 
@@ -28,8 +28,8 @@ export const Hero = () => {
       <div className="hero-btn-con">
         <button className="hero-btn">Get Started</button>
 
-        <span className="hero-btn-01">
-          Pricing{" "}
+        <button className="hero-btn-01">
+          <span>Pricing</span>
           <svg width="16" height="16" fill="none">
             <path
               stroke="#1E1F25"
@@ -40,7 +40,7 @@ export const Hero = () => {
               d="M8 4.75 11.25 8m0 0L8 11.25M11.25 8h-6.5"
             ></path>
           </svg>
-        </span>
+        </button>
       </div>
 
       <p className="hero-tagline">For US-based startups.</p>
